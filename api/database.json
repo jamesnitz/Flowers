@@ -1,0 +1,156 @@
+{
+  "Flowers": [
+    {
+      "id": 1,
+      "name": "Eryngium",
+      "color": "Purple"
+    },
+    {
+      "id": 2,
+      "name": "Sun Flower",
+      "color": "Yellow"
+    },
+    {
+      "id": 3,
+      "name": "Rose",
+      "color": "Red"
+    },
+    {
+      "id": 4,
+      "name": "Stock",
+      "color": "White"
+    },
+    {
+      "id": 5,
+      "name": "Primrose",
+      "color": "Cream"
+    }
+  ],
+  "Retailers": [
+    {
+      "id": 1,
+      "name": "bruhhh",
+      "city": "bruhhCity",
+      "state": "bruhhstate",
+      "address": "bruhhhaddress",
+      "DistributorId": 1
+    },
+    {
+      "id": 2,
+      "name": "Slab",
+      "city": "SlabCity",
+      "state": "Slabstate",
+      "address": "Slabaddress",
+      "DistributorId": 2
+    },
+    {
+      "id": 3,
+      "name": "James Store",
+      "city": "Jamestown",
+      "state": "JamesState",
+      "address": "James' House",
+      "DistributorId": 3
+    },
+    {
+      "id": 4,
+      "name": "My Dad",
+      "city": "My Dad's city",
+      "state": "My Dad's state",
+      "address": "My Dad's house",
+      "DistributorId": 2
+    },
+    {
+      "id": 1,
+      "name": "Wendys",
+      "city": "WendysCity",
+      "state": "Wendy's state",
+      "address": "Wendys Address",
+      "DistributorId": 1
+    }
+  ],
+  "Distributors": [
+    {
+      "id": 1,
+      "name": "Dunder Mifflin"
+    },
+    {
+      "id": 2,
+      "name": "Life is a Box of Flowers"
+    },
+    {
+      "id": 3,
+      "name": "BUD's"
+    }
+  ],
+  "NurseryDistributors" : [
+    {
+      "id": 1,
+      "NurseryId": 1,
+      "DistributorId": 1
+    },
+    {
+      "id": 2,
+      "NurseryId": 2,
+      "DistributorId": 2
+    },
+    {
+      "id": 3,
+      "NurseryId": 3,
+      "DistributorId": 3
+    },
+    {
+      "id": 4,
+      "NurseryId": 4,
+      "DistributorId": 3
+    },
+    {
+      "id": 5,
+      "NurseryId": 5,
+      "DistributorId": 1
+    }
+  ],
+  "Nurserys": [
+    {
+      "id": 1,
+      "name": "Cursory Nursery"
+    },
+    {
+      "id": 2,
+      "name": "Plant Parenthood"
+    },
+    {
+      "id": 3,
+      "name": "PLANTLANTA"
+    },
+    {
+      "id": 4,
+      "name": "Cursed Nursery"
+    },
+    {
+      "id": 5,
+      "name": "FiF Nursery"
+    }
+  ],
+  "NurseryFlowers" : [
+    {
+      "id": 1,
+      "FlowerId": 1,
+      "NurseryId": 1
+    },
+    {
+      "id":2,
+      "FlowerId": 2,
+      "NurseryId": 2
+    },
+    {
+      "id": 3,
+      "FlowerId": 3,
+      "NurseryId": 3
+    },
+    {
+      "id": 4,
+      "FlowerId": 4,
+      "NurseryId": 4
+    }
+  ]
+}
