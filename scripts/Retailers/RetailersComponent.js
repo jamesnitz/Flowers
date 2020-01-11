@@ -1,5 +1,4 @@
 export const retailerBuilder = (retailer, distributor, nurserys, flowers) => {
-  
   return `
     <div class="retailer__Card">
       <header>
