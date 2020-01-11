@@ -7,12 +7,11 @@ import { getNurseryDistributors } from "./NurseryDistributor/NurseryDistributorP
 import { getNurserys } from "./Nurseries/NurseryProvider.js"
 import { getNurseryFlowers } from "./NurseryFlower/NurseryFlowersProvider.js"
 
-
 getRetailers()
-.then(getDistributors)
-.then(getFlowers)
-.then(getNurserys)
-.then(getNurseryFlowers)
-.then(getNurseryDistributors)
-.then(retailerList)
-.then(FlowerList)
+  .then(getDistributors)
+  .then(getFlowers)
+  .then(getNurserys)
+  .then(getNurseryFlowers)
+  .then(getNurseryDistributors)
+  .then(retailerList)
+  .then(FlowerList);
