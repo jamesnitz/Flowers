@@ -5,6 +5,7 @@ import { useFlowers } from "../Flowers/FlowerDataProvier.js"
 import { useNurserys } from "../Nurseries/NurseryProvider.js"
 import { useNurseryDistributors } from "../NurseryDistributor/NurseryDistributorProvider.js"
 import { useNurseryFlowers } from "../NurseryFlower/NurseryFlowersProvider.js"
+import { useColors } from "../Colors/ColorsDataProvider.js"
 
 const content = document.querySelector(".retailers");
 
@@ -15,6 +16,7 @@ export const retailerList = () => {
   const nurserys = useNurserys();
   const nurseryDistributors = useNurseryDistributors();
   const nurseryFlowers = useNurseryFlowers();
+  const colors = useColors();
 
   const render = () => {
     content.innerHTML = retailers.map(retailer => {
@@ -32,6 +34,7 @@ export const retailerList = () => {
 
         const foundFlowerArray = nurseryFlowerRelation.map(nfr => {
           let foundFlower = flowers.find(flower => flower.id === nfr.FlowerId);
+          foundFlower.color = colors.find(color => color.id === foundFlower.colorId);
           return foundFlower;
         })
         return foundFlowerArray;

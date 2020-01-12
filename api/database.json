@@ -3,27 +3,27 @@
     {
       "id": 1,
       "name": "Eryngium",
-      "color": "Purple"
+      "colorId": 2
     },
     {
       "id": 2,
       "name": "Sun Flower",
-      "color": "Yellow"
+      "colorId": 3
     },
     {
       "id": 3,
       "name": "Rose",
-      "color": "Red"
+      "colorId": 1
     },
     {
       "id": 4,
       "name": "Stock",
-      "color": "White"
+      "colorId": 4
     },
     {
       "id": 5,
       "name": "Primrose",
-      "color": "Cream"
+      "colorId": 5
     }
   ],
   "Retailers": [
@@ -161,6 +161,28 @@
       "id": 5,
       "FlowerId": 2,
       "NurseryId": 5
+    }
+  ],
+  "Colors": [
+    {
+      "id": 1,
+      "name": "Red"
+    },
+    {
+      "id": 2,
+      "name": "Purple"
+    },
+    {
+      "id": 3,
+      "name": "Yellow"
+    },
+    {
+      "id": 4,
+      "name": "Cream"
+    },
+    {
+      "id": 5,
+      "name": "White"
     }
   ]
 }

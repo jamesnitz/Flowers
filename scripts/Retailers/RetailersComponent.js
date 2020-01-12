@@ -27,7 +27,7 @@ export const retailerBuilder = (retailer, distributor, nurserys, flowers) => {
            flower.map(
              individualFlower =>
              `
-             <li> ${individualFlower.color} ${individualFlower.name}</li>
+             <li> ${individualFlower.color.name} ${individualFlower.name}</li>
              `
            ).join("")
          ).join("")
